@@ -1,0 +1,5 @@
+See expenses for each account
+menu bar to select monthly daily or weekly
+graph to show the expense for 3 period units
+set automatic payement to pay
+for each account type see for what they have expensed along with the date
