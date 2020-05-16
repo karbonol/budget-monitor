@@ -8,7 +8,7 @@ export default class extends React.Component{
         <View style={style.card}>
             <Text>{this.props.title}</Text>
             <Text>{this.props.expense}</Text>
-            <Text style={{alignSelf:'flex-end'}}>Read More -></Text>
+            <Text style={{alignSelf:'flex-end'}} onPress={()=>{this.props.onMoreDetails()}}>Read More -></Text>
         </View>);    
     } 
 }

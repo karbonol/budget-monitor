@@ -35,8 +35,9 @@ const styles = StyleSheet.create({
     },
     card:{
       shadowColor:'black',
+      alignSelf:'stretch',
       shadowOpacity:0.8,
-      shadowOffset:{ width: 0, height: 1 },
+      shadowOffset:{ width: 1, height: 1 },
       padding:20,
       backgroundColor:'white',
       borderRadius:12
